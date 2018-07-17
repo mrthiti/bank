@@ -1,0 +1,19 @@
+{
+    "name": "bank",
+    "version": "1.0.0",
+    "description": "Service serves bank data",
+    "author": "TEst Hackathon Team",
+    "license": "ISC",
+    "main": "index.js",
+    "dependencies": {
+      "readline-sync": "^1.4.9"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "dev": "echo 'run dev' && export devMode=1 && npm start",
+      "nodemon": "./node_modules/nodemon/bin/nodemon.js --exec npm run dev"
+    },
+    "devDependencies": {
+      "nodemon": "^1.18.2"
+    }
+  }
