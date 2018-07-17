@@ -68,12 +68,3 @@ while (true) {
       break
   }
 }
-
-
-
-// console.log("Hi " + name + ", nice to meet you.");
-
-
-
-// var stdin = process.stdin;
-// console.log(stdin)
